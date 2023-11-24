@@ -77,7 +77,7 @@ export const DiscountForm = () => {
             />
           </div>
 
-          <div>
+          <div className='discountsubmit'>
             <input type="submit" className="submit" value="Submit" />
           </div>
           <div className="discountcode" id="code">

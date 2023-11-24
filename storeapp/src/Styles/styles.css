@@ -24,6 +24,7 @@ body::-webkit-scrollbar {
 .navbar-expand {
   background-image: linear-gradient(to right, green, yellow);
   background-size: 100%;
+  margin:0;
 }
 
 /* App */
@@ -293,7 +294,7 @@ input[type="text"] {
   width: 350px;
   height: max-width;
   font-weight: bold;
-  color: white;
+  color: rgb(5, 5, 5);
   padding: 1rem;
 }
 input[type="email"] {
@@ -302,7 +303,7 @@ input[type="email"] {
   width: 350px;
   height: 100%;
   font-weight: bold;
-  color: white;
+  color: rgb(5, 5, 5);
   padding: 1rem;
 }
 
@@ -313,7 +314,7 @@ textarea {
   height: 150px;
   overflow: hidden;
   font-weight: bold;
-  color: white;
+  color: rgb(5, 5, 5);
 }
 
 .submit {
@@ -398,6 +399,10 @@ p {
   border-radius: 5px;
   animation: fadein 5s ease-out forwards;
   opacity: 0.7;
+}
+
+.discountsubmit{
+  margin-top: 1rem;
 }
 
 .discountform {
