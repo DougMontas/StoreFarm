@@ -162,6 +162,11 @@ nav .logo {
 }
 
 @media screen and (max-width: 1000px) {
+  
+  .subtitle {
+    font-size: 0.6rem;
+  }
+
   .products {
     display: block;
     height: fit-content;
@@ -475,7 +480,7 @@ button {
   border-radius: 5px;
   box-shadow: 3px 3px 18px black;
 }
-@media only screen and (max-width: 1255px) {
+@media only screen and (max-width: 1000px) {
   .review-img {
     width: 38rem;
     height: 18rem;
