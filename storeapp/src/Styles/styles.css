@@ -190,8 +190,13 @@ nav .logo {
   }
 
   .reviews h4 {
-    margin-left: 35%;
+    margin-left: auto;
+    margin-right: auto;
     width: 100%;
+  }
+  .therevs {
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .App {
