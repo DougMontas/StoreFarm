@@ -6,7 +6,6 @@
   padding: 0;
   color: white;
   font-family: "Rajdhani", sans-serif;
-  /* background-color: rgb(44, 177, 29); */
   letter-spacing: 1.5px;
 }
 .submit {
@@ -17,14 +16,16 @@ body::-webkit-scrollbar {
   display: none;
 }
 .App {
-  background-image: linear-gradient(to right,green, yellow);
+  background-image: linear-gradient(to right, green, yellow);
   height: 100%;
+  width: 100%;
+  background-size: 100%;
 }
 
 .navbar-expand {
   background-image: linear-gradient(to right, green, yellow);
   background-size: 100%;
-  margin:0;
+  margin: 0;
 }
 
 /* App */
@@ -160,12 +161,13 @@ nav .logo {
   box-shadow: 3px 13px 13px green;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1000px) {
   .products {
     display: block;
     height: fit-content;
-    width: 100%;
-    margin-left: 10%;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
   }
   .card {
     margin-left: auto;
@@ -184,6 +186,11 @@ nav .logo {
   .reviews h4 {
     margin-left: 35%;
     width: 100%;
+  }
+
+  .App {
+    background-image: linear-gradient(to right, green, yellow);
+    
   }
 }
 
@@ -401,12 +408,13 @@ p {
   opacity: 0.7;
 }
 
-.discountsubmit{
+.discountsubmit {
   margin-top: 1rem;
 }
 
 .discountform {
   height: 100vh;
+  margin-top: 3rem;
 }
 
 @keyframes fadein {
