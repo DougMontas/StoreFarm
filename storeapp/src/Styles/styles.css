@@ -184,8 +184,9 @@ nav .logo {
     margin-bottom: 3rem;
   }
 
-  .aboutus {
-    margin-left: 35%;
+  .aboutus .info3 .info4 {
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .reviews h4 {
