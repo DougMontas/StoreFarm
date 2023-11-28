@@ -7,7 +7,7 @@ export const Products = () => {
     <>
       <div className="container-fluid products">
         <div className="card" style={{ width: "23rem", height: "23rem" }}>
-          <img src={fruit} className="card-img-top fruitpic" alt="..." />
+          <img src={fruit} className="card-img-top fruitpic" alt="june plum" />
           <div className="card-body">
             <h5 className="card-title">Dwarf June Plums</h5>
             <p className="card-text">3 LBS</p>

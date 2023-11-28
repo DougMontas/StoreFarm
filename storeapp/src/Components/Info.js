@@ -45,7 +45,7 @@ export const Info = () => {
           why not give them a try? You will not be disappointed!
         </p>
       </div>
-      <span>Source: https://gardenersmag.com/june-plum/</span>
+      <span>Source: <a href='https://gardenersmag.com/june-plum/' target="_blank" rel="noreferrer">https://gardenersmag.com/june-plum/ </a> </span>
     </>
   );
 };
