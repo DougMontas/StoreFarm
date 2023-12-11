@@ -11,7 +11,7 @@ export const Carousel = () => {
     <>
       <div
         style={{
-          width: "60%",
+          width: "40%",
           height: "12rem",
           marginLeft: "auto",
           marginRight: "auto",

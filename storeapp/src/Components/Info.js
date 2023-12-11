@@ -29,8 +29,7 @@ export const Info = () => {
           <p>
             June plums have a sweet-tart flavor similar to other tropical fruits
             such as mangoes and guavas. They have thin skin that can be eaten or
-            peeled off before consumption. Inside the fruit is soft flesh with
-            black seeds concentrated near the center.
+            peeled off before consumption.
           </p>
           <img className="pics info3pic" src={june3} alt="juneplum3" />
         </div>
