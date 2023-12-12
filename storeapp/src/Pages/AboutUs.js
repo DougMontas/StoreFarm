@@ -9,7 +9,7 @@ export const AboutUs = () => {
   });
   return (
     <>
-      <div className="container-fluid aboutus">
+      <div className="aboutus">
         <div className="info3">
           <p className="p1" id="p1">
             We are located in South Florida and enjoy bringing a piece of the

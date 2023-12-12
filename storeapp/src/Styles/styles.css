@@ -8,6 +8,7 @@
   font-family: "Rajdhani", sans-serif;
   letter-spacing: 1.5px;
 }
+
 .submit {
   background-color: rgb(44, 177, 29);
 }
@@ -19,7 +20,7 @@ body::-webkit-scrollbar {
   background-image: linear-gradient(to right, green, yellow);
   height: 100%;
   width: 100%;
-  background-size: 100%;
+  background-size: cover;
 }
 
 .navbar-expand {
@@ -292,6 +293,10 @@ nav .logo {
 }
 
 /* Contact */
+.contact-form {
+  height: 100vh;
+}
+
 .form-horizontal {
   gap: 1rem;
   text-align: center;
@@ -354,6 +359,11 @@ textarea {
 }
 
 /* About Us */
+.aboutus {
+  text-align: center;
+  width: 100%;
+}
+
 img {
   height: 15rem;
   width: 15rem;
@@ -368,12 +378,12 @@ p {
   font-size: 1.3rem;
 }
 
-.info3 .p1 {
-  animation: slide 0.3s ease-in-out;
+/* .info3 .p1 {
+  animation: slide1 0.3s ease-in-out;
   animation-duration: 3s;
 }
 
-@keyframes slide {
+@keyframes slide1 {
   0% {
     transform: translateX(-150%);
   }
@@ -393,7 +403,7 @@ p {
   100% {
     transform: translateX(0%);
   }
-}
+} */
 
 .reviews {
   text-align: center;
@@ -408,15 +418,17 @@ p {
 }
 
 .therevs {
-  width: 100%;
+  width: 80%;
   margin: 1.5rem;
+  margin-left:auto;
+  margin-right:auto;
 }
 
 /* Discount */
 .discount {
   position: fixed;
   top: 50%;
-  right: 1%;
+  right: 5%;
   border: 0.5px solid white;
   border-radius: 5px;
   animation: fadein 5s ease-out forwards;
