@@ -9,6 +9,7 @@ import { Policy } from "./Pages/Policy";
 import { Title } from "./Components/Title";
 import logo2 from "./Assets/Logos/logolargenobg.png";
 import { ErrorPage } from "./Pages/ErrorPage";
+import { Home2 } from "./Pages/Home2";
 
 function App() {
   return (
@@ -18,8 +19,8 @@ function App() {
           <nav>
             <ul className="nav">
               <div className="logo">
-                <Link to='/'>
-                <img src={logo2} alt="logo" />
+                <Link to="/">
+                  <img src={logo2} alt="logo" />
                 </Link>
               </div>
               <div className="links">
@@ -68,6 +69,7 @@ function App() {
             <Route path="/aboutus" element={<AboutUs />} />
             <Route path="/discountform" element={<DiscountForm />} />
             <Route path="/policy" element={<Policy />} />
+            <Route path="/home2" element={<Home2 />} />
             <Route path="*" element={<ErrorPage />} />
           </Routes>
         </div>
