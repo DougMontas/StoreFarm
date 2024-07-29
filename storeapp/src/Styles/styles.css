@@ -8,6 +8,9 @@
   color: white;
   font-family: "Rajdhani", sans-serif;
   letter-spacing: 1.5px;
+  /* overflow-x: hidden;
+  overflow-y: scroll; */
+  
 }
 
 .submit {
@@ -811,28 +814,31 @@ button {
   .section2 {
     display: block;
     text-align: center;
-    animation: appear 3s linear;
-  }
+    animation: appear 3s linear; 
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 30%;
+  } 
 
   .section2aimg {
     height: auto;
     width: 95% !important;
-  }
+  } 
 
   .section2asub {
     margin: 0;
     width: 100%;
     text-align: center;
-  }
+  } 
 
   .shape1 {
-    display: none;
-  }
+    display: none; 
+  }  
 
   .shape2 {
-    display: none;
-  }
-}
+    display: none; 
+  }  
+}  
 
 .section2asub {
   color: rgb(6, 142, 6);
@@ -904,7 +910,7 @@ button {
   /* animation: appear 5s linear; */
   animation: appear linear;
   animation-timeline: view();
-  animation-range: entry 0% cover 30%;
+  animation-range: entry 0% cover 20%;
 }
 
 .main-sec {
