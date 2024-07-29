@@ -801,7 +801,10 @@ button {
   background-color: rgb(3, 3, 3) !important;
   display: flex;
   justify-content: space-between;
-  animation: appear 5s linear;
+  /* animation: appear 5s linear; */
+  animation: appear linear;
+  animation-timeline: view();
+  animation-range: entry 0;
 }
 
 @media (max-width: 1500px) {
@@ -895,7 +898,10 @@ button {
 
 .recipe {
   background-color: white;
-  animation: appear 5s linear;
+  /* animation: appear 5s linear; */
+  animation: appear linear;
+  animation-timeline: view();
+  animation-range: entry 0;
 }
 
 .main-sec {
